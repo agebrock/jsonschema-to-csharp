@@ -1,0 +1,19 @@
+{
+  "name": "@agebrock/jsonschema-to-csharp",
+  "version": "0.0.2",
+  "description": "converts a JSON Schema to C# classes using node-api-dotnet",
+  "main": "./cjs/index.js",
+  "keywords": ["csharp","generator","dotnetnode","jsonschema"],
+  "author": "Christoph Hagenbrock <agebrock@users.noreply.github.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc --emitDeclarationOnly -d  --outDir ./cjs && tsc --module commonjs --outDir ./cjs"
+  },
+  "dependencies": {
+    "node-api-dotnet": "^0.5.6"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.84",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2021",
+        "skipLibCheck": true
+    },
+    "exclude": [
+        "lib",
+        "./lib",
+        "node_modules",
+        "./node_modules",
+        "./node_modules/*",
+        "./node_modules/@types/node/index.d.ts",
+      ],
+      "include": [
+        "./src/*.ts"
+    ],
+}
